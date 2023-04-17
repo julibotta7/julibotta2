@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 1 rem = 10 px
+}
+body {
+    background-color:aquamarine;
+    border: 5px dotted black;
+}
+
+.textoCentrado{
+    text-align;
+}

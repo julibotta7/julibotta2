@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: cursive;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.primerBloque{
+    text-align: left;
+}
+.segundoBloque{
+    text-align: left;
+}
+.tercerBloque{
+    text-align: left;
+}
+.cuartoBloque{
+    text-align: center;
+}
+div{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
