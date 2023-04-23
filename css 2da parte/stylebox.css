@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /*1 rem = 10px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;  /*hereda las propiedades de su padre*/
+}
+
+.contenedor{
+    gap: 5px;
+    position: relative
+    width: 100vh;
+    height: 100vh;
+}
+
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+}
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+}
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 5px;
+}
