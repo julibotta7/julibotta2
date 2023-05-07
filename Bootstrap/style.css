@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+box-sizing: inherit;
+}
+.contenedor-padre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.producto{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+.tabla{
+    border: 2px solid black;
+}
+.fila{
+    border: 1px solid black;
+}
